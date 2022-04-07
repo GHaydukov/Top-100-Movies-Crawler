@@ -38,6 +38,7 @@ table.write(0, 2, "Movie Name")
 table.write(0, 3, "Movie Introduction")
 line = 1
 
+# Writes the data in the Excel sheet.
 for anchor in movies:
     urls = "https://www.rottentomatoes.com" + anchor['href']
     movies_list.append(urls)
